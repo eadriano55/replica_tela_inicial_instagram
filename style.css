@@ -70,12 +70,16 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 .rounded-circle {
     padding-bottom: 5px;
 }
 .profile-photo img {
     height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    object-position: 40% 60%;
 }
 
 .instagram-login {
@@ -92,10 +96,13 @@ body {
 
 .not-account {
     color: rgb(160, 160, 160);
+    cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
 }
 
 .get-the-app {
